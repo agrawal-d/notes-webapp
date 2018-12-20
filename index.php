@@ -32,7 +32,7 @@
 				<form action="#">
 					<div class="form-group inline-login">
 						<h6>Step 1</h6><br>
-						<input aria-describedby="emailHelp" class=" form-control inline-login-top" id="signup-email" name="email" maxlength="64" placeholder="Enter your email address" required type="email"> <input class="form-control" name="password" id="signup-password" placeholder="Choose a new password" maxlength="64" required="" type="password"> <input class="form-control inline-login-bottom" id="signup-password2" placeholder="Enter password again" required name="password2" type="password"><br>
+						<input aria-describedby="emailHelp" maxlength="32" class=" form-control inline-login-top" id="signup-email" name="email" maxlength="32" placeholder="Enter your email address" required type="email"> <input maxlength="32" class="form-control" name="password" id="signup-password" placeholder="Choose a new password" maxlength="32" required="" type="password"> <input class="form-control inline-login-bottom" id="signup-password2" placeholder="Enter password again" required name="password2" type="password" maxlength="32"><br>
 						<button class="btn btn-primary btn-block createaccount" type="submit">Next</button>
 					</div>
 				</form>

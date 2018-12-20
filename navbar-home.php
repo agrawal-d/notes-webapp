@@ -14,7 +14,7 @@
     </ul>
     <ul class="navbar-nav navbar-right">
               <form class="form-inline" action="mysql.php" method="POST">
-    <input class="home-login fst-home" placeholder="Email Id" name="email"><input name="password" class="home-login" type="password" placeholder="Password">
+    <input class="home-login fst-home" type="email" maxlength="32" placeholder="Email Id" name="email"><input name="password" class="home-login" maxlength="32" type="password" placeholder="Password">
     <button class="btn btn-primary home-login-btn" type="submit"><span class="fa fa-key"></span>Login</button>
   </form>
       <li class="nav-item show-modal" data-uri="about.html" data-title="About Notes v0.1">

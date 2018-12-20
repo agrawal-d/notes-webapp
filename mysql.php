@@ -7,7 +7,7 @@ include 'mysql_values.php';
 // Create connection
 
 
-$email = $_POST["email"];
+$email = htmlspecialchars($_POST["email"]);
 $password = $_POST["password"];
 $password = md5($password);
 // Check connection
